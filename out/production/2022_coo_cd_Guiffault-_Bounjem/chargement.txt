@@ -1,0 +1,16 @@
+Ce diagramme permet la création d'un magasin à partir d'un répertoire qui comporte une liste de CD.
+il est possible de créer des CD et d'y ajouter ou extraires des pistes.
+Ces CD peuvent être ultérieurement ajoutés au magasin.
+
+
+Depuis le main, on crée un objet chargeur de type ChargeurMagasin avec comme parametre "rep".
+Toujours depuis le main, on appelle la méthode chargerMagasin() de l'objet chargeur.
+Cet méthode crée un objet magasin de type Magasin.
+Il crée aussi un objet chargerCd1 de type ChargeurCD avec comme paramètre "fichier".
+L'objet chargeur appelle la méthode chargerCD() à partir de l'objet déja crée chargerCd1.
+L'objet charge1 crée un objet cd1 de type CD avec comme paramètre un artiste et un nomCD.
+L'objet cd1 appelle l
+ce même objet appelle la méthode ajouterPiste().
+Il rappelle aussi la méthode ajouterPiste().
+L'objet chargerCD() à fini de charger un CD.
+L'objet charger appelle une nouvelle méthode ajouterCD avec comme paramètre "cd1".
